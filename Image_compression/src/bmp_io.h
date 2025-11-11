@@ -34,6 +34,4 @@ typedef struct{
 int bmp_read(FILE* in, bmp_header_t* h, u32* pixels, int max_pixels, int* out_height_abs);
 int bmp_write(FILE* out, const bmp_header_t* h, const u32* pixels, int height_abs);
 
-int bmp_read_mem(const u8* data, int data_len, bmp_header_t* h,
-                 u32* pixels, int max_pixels, int* out_h);
 #endif /* BMP_IO_H_ */
