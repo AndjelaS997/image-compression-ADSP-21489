@@ -68,13 +68,13 @@ Before running the project, make sure you have:
 
 
 ## 4) Result analysis (Python)
-•	Create a local folder for analysis.
-•	Copy the following into that folder:
-    -the Python script (decode_dct.py),
-    -the original image (.bmp),
-    -the generated output file (.dct).
-•	Open CMD in that folder and run:
-    -py decode_dct.py image_name.dct image_name.bmp
-•	The results (reconstructed image, MSE value, and visualizations) will appear immediately and can be saved if needed.
+*	Create a local folder for analysis.
+*	Copy the following into that folder:
+    - the Python script (decode_dct.py),
+    - the original image (.bmp),
+    - the generated output file (.dct).
+*	Open CMD in that folder and run:
+    - py decode_dct.py image_name.dct image_name.bmp
+*	The results (reconstructed image, MSE value, and visualizations) will appear immediately and can be saved if needed.
 
 
